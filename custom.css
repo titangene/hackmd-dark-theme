@@ -1,3 +1,4 @@
+@-moz-document regexp('https:\/\/hackmd\.io\/.*') {
 /*--------------- view ---------------*/
   body, .ui-view-area, .markdown-body, .ui-content {
     background: #1e1e1e;
@@ -216,3 +217,4 @@
   #summary .active a {
     color: #ff9100;
   }
+}
