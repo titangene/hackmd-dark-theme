@@ -139,18 +139,27 @@
   .ui-toc-dropdown .nav > li > a {
       font-size: 14px;
       font-weight: bold;
-      color: #888;
+      color: #ddd;
   }
   /* table of contents text: active*/
   .ui-toc-dropdown .nav > .active:focus > a, .ui-toc-dropdown .nav > .active:hover > a, .ui-toc-dropdown .nav > .active > a {
-    color: #2979ff;
-    border-left-color: #2979ff;
+    color: #659eff;
+    border-left-color: #659eff;
   }
   /* table of contents text: focus, hover*/
   .ui-toc-dropdown .nav > li > a:focus, .ui-toc-dropdown .nav > li > a:hover {
     color: #659eff;
-    border-left-color: #2979ff;
+    border-left-color: #659eff;
   }
+
+  .toc-menu a {
+    color: #ddd;
+  }
+
+  .toc-menu a:focus, .toc-menu a:hover {
+    color: #659eff;
+  }
+
 
   /*--------------- editor ---------------*/
   .cm-m-markdown {
