@@ -143,23 +143,27 @@
   }
   /* table of contents text: active*/
   .ui-toc-dropdown .nav > .active:focus > a, .ui-toc-dropdown .nav > .active:hover > a, .ui-toc-dropdown .nav > .active > a {
-    color: #659eff;
-    border-left-color: #659eff;
+    color: #7bf;
+    border-left-color: #7bf;
   }
   /* table of contents text: focus, hover*/
   .ui-toc-dropdown .nav > li > a:focus, .ui-toc-dropdown .nav > li > a:hover {
-    color: #659eff;
-    border-left-color: #659eff;
+    color: #7bf;
+    border-left-color: #7bf;
   }
-
+  /* drop down floating table of contents */
+  .ui-toc-dropdown.dropdown-menu {
+    background: #333;
+  }
+  
   .toc-menu a {
     color: #ddd;
   }
 
   .toc-menu a:focus, .toc-menu a:hover {
-    color: #659eff;
+    color: #7bf;
   }
-
+  
 
   /*--------------- editor ---------------*/
   .cm-m-markdown {
