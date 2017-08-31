@@ -132,16 +132,16 @@
 
   /* table of contents block*/
   .ui-toc-dropdown {
-      width: 42vw;
-      max-height: 90vh;
-      overflow: auto;
-      text-align: inherit;
+    width: 42vw;
+    max-height: 90vh;
+    overflow: auto;
+    text-align: inherit;
   }
   /* table of contents text*/
   .ui-toc-dropdown .nav > li > a {
-      font-size: 14px;
-      font-weight: bold;
-      color: #ddd;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ddd;
   }
   /* table of contents text: active*/
   .ui-toc-dropdown .nav > .active:focus > a, .ui-toc-dropdown .nav > .active:hover > a, .ui-toc-dropdown .nav > .active > a {
