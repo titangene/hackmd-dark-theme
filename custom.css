@@ -132,8 +132,7 @@
 
   /* table of contents block*/
   .ui-toc-dropdown {
-      max-width: 50vw;
-      width: 46vw;
+      width: 42vw;
       max-height: 90vh;
       overflow: auto;
       text-align: inherit;
