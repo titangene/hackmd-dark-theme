@@ -7,12 +7,12 @@ Install browser extension: Stylish - get the addon for [Firefox](https://addons.
 Then install this style using: [userstyles.org](https://userstyles.org/styles/147272/hackmd-dark-theme)
 
 ## Screenshots
-![](./image/HackMD-Dark-Theme_Screenshot_1.png)
+![](./Screenshot/HackMD-Dark-Theme_1.png)
 
-![](./image/HackMD-Dark-Theme_Screenshot_2.png)
+![](./Screenshot/HackMD-Dark-Theme_2.png)
 
-![](./image/HackMD-Dark-Theme_Screenshot_3.png)
+![](./Screenshot/HackMD-Dark-Theme_3.png)
 
-![](./image/HackMD-Dark-Theme_Screenshot_4.png)
+![](./Screenshot/HackMD-Dark-Theme_4.png)
 
-![](./image/HackMD-Dark-Theme_Screenshot_5.png)
+![](./Screenshot/HackMD-Dark-Theme_5.png)
