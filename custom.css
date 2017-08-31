@@ -33,13 +33,16 @@
   .task-list-item-checkbox {
     margin: 0.18em 0 0.2em -1.3em !important;
   }
-  .task-list-item input {
+  .task-list-item input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     position: relative;
     top: -1px;
     margin: 0 1rem 0 0;
     cursor: pointer;
   }
-  .task-list-item input:before {
+  .task-list-item input[type=checkbox]::before {
     -webkit-transition: all 0.1s ease-in-out;
     -moz-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
@@ -51,7 +54,7 @@
     height: 16px;
     border: 2px solid #F44336;
   }
-  .task-list-item input:checked:before {
+  .task-list-item input[type=checkbox]:checked::before {
     -webkit-transform: rotate(-48deg);
     -moz-transform: rotate(-48deg);
     -ms-transform: rotate(-48deg);
@@ -62,7 +65,7 @@
     border-top-style: none;
     border-right-style: none;
   }
-  .task-list-item input:after {
+  .task-list-item input[type=checkbox]::after {
     content: "";
     position: absolute;
     top: -0.125rem;
