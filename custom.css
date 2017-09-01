@@ -172,8 +172,12 @@
     color: #ddd;   
   }
 
-  .cm-url, .cm-s-one-dark .cm-variable-2, .cm-string.cm-url, .cm-m-xml.cm-string {
-    color: #7bf;
+  .cm-s-one-dark .cm-header, .cm-m-xml.cm-attribute {
+    color: #ffa653;
+  }
+
+  .cm-url, .cm-s-one-dark .cm-variable-2, .cm-string.cm-url, .cm-m-xml.cm-string, .cm-m-markdown.cm-url {
+    color: #7bf !important;
   }
 
   .cm-m-markdown.cm-variable-3 {
@@ -182,10 +186,6 @@
 
   .cm-s-one-dark .cm-link, .cm-m-xml.cm-tag, .cm-m-markdown.cm-tag, .cm-m-markdown.cm-keyword {
     color: #b0ee83;
-  }
-
-  .cm-s-one-dark .cm-header, .cm-m-xml.cm-attribute {
-    color: #ffa653 !important;
   }
 
   .cm-s-one-dark .CodeMirror-linenumber {
