@@ -22,6 +22,10 @@
     color: #ddd;
     border-left-color: #777;
   }
+  .markdown-body code {
+    color: #424242 !important;
+    background-color: #f7f7f7;
+  }
   blockquote .small, blockquote footer, blockquote small {
     color: #bbb;
   }
