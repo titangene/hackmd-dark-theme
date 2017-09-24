@@ -109,7 +109,7 @@
     color: #ddd;
   }
 
-  .part.sequence-diagram, .part.flow-chart, .part.graphviz, .part.mermaid, .part.abc {
+  .markdown-body pre.flow-chart, .markdown-body pre.sequence-diagram, .markdown-body pre.graphviz, .markdown-body pre.mermaid, .markdown-body pre.abc {
     background-color: #fff !important;
   }
 
