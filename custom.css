@@ -81,31 +81,31 @@
   }
 
   /* table */
-  .markdown-body table.part tr {
+  .markdown-body table tr {
     background-color: #1e1e1e;
     border-top: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 6px, rgba(0, 0, 0, 0.4) 0px 1px 4px;
   }
-  .markdown-body table.part tr:first-child {
+  .markdown-body table tr:first-child {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
-  .markdown-body table.part tr:nth-child(2n) {
+  .markdown-body table tr:nth-child(2n) {
     background-color: #333;
   }
-  .markdown-body table.part tr th {
+  .markdown-body table tr th {
     color: #64B5F6;
   }
-  .markdown-body table.part th, .markdown-body table.part td {
+  .markdown-body table th, .markdown-body table td {
       border: none;
   }
-  .markdown-body table.part tr th:first-child, .markdown-body table.part tr td:first-child {
+  .markdown-body table tr th:first-child, .markdown-body table tr td:first-child {
     border-left: 1px solid rgba(255, 255, 255, 0.1);
   }
-  .markdown-body table.part tr th:last-child, .markdown-body table.part tr td:last-child {
+  .markdown-body table tr th:last-child, .markdown-body table tr td:last-child {
     border-right: 1px solid rgba(255, 255, 255, 0.1);
   }
-  .markdown-body table.part tr td {
+  .markdown-body table tr td {
     color: #ddd;
   }
 
