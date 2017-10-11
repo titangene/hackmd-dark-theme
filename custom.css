@@ -169,6 +169,14 @@
   .toc-menu a:focus, .toc-menu a:hover {
     color: #7bf;
   }
+
+  /* alert-warning */
+  .alert-warning ul li {
+		color: #000;
+	}
+	.alert-warning a {
+		color: #2979ff;
+	}
   
 
   /*--------------- editor ---------------*/
