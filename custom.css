@@ -225,14 +225,14 @@
     color: #fff;
   }
 
-  #summary h1, #summary h2, #summary h3 #summary hr {
+  .summary h1, .summary h2, .summary h3 .summary hr {
     color: #ddd;
     border-color: #777 !important;
   }
-  #summary a {
+	.summary .nav > li > a {
     color: #7bf;
   }
-  #summary .active a {
+	.summary .nav-pills > li.active > a, .summary .nav-pills > li.active > a:focus, .summary .nav-pills > li.active > a:hover {
     color: #ff9100;
   }
 }
