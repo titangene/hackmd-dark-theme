@@ -24,8 +24,8 @@
     font-size: 16px;
   }
   .markdown-body code {
-    color: #424242 !important;
-    background-color: #f7f7f7;
+    color: #dfdfdf !important;
+    background-color: #59626e;
   }
   blockquote .small, blockquote footer, blockquote small {
     color: #bbb;
@@ -108,7 +108,6 @@
   .markdown-body table tr td {
     color: #ddd;
   }
-
   .markdown-body pre.flow-chart, .markdown-body pre.sequence-diagram, .markdown-body pre.graphviz, .markdown-body pre.mermaid, .markdown-body pre.abc {
     background-color: #fff !important;
   }
@@ -117,29 +116,23 @@
   .alert h1, .alert h2, .alert h3, .alert h4, .alert h5, .alert h6, .alert p, .alert ul li, .alert ol li {
     color: #31708f;
 	}
-	
 	.alert a {
 		color: #002752;
     font-weight: 700;
 	}
-
 	.alert h1:first-child, .alert h2:first-child, .alert h3:first-child, .alert h4:first-child, .alert h5:first-child, .alert h6:first-child {
     margin-top: 0;
 	}
-
 	.markdown-body .alert > p {
 		margin-top: 0px;
 		margin-bottom: 10px;
 	}
-
 	.markdown-body .alert > ul, .markdown-body .alert > ol {
 		margin-bottom: 16px;
 	}
-
 	.markdown-body .alert > *:last-child {
     margin-bottom: 0;
 	}
-
 	.alert-warning {
     background-color: #fff3cd;
     border-color: #ffeeba;
@@ -203,35 +196,27 @@
   .cm-m-markdown {
     color: #ddd;   
   }
-
   .cm-s-one-dark .cm-header, .cm-m-xml.cm-attribute {
     color: #ffa653;
   }
-
   .cm-s-one-dark .cm-string, .cm-s-one-dark .cm-variable-2 {
     color: #7bf;
   }
-
   .cm-m-markdown.cm-variable-3 {
     color: #ff7e7e;
   }
-
   .cm-s-one-dark .cm-link {
     color: #b0ee83;
   }
-
   .cm-s-one-dark .CodeMirror-linenumber {
     color: #666;
   }
-
   .cm-strong {
     color: #f4511e;
   }
-
   .cm-comment {
     color: #888 !important;
   }
-
   .cm-matchhighlight {
     color: #ffea00;
   }
@@ -240,11 +225,9 @@
   #summary, .toolbar {
     background: #1e1e1e !important;
   }
-
   .toolbar i {
     color: #fff;
   }
-
   .summary h1, .summary h2, .summary h3 .summary hr {
     color: #ddd;
     border-color: #777 !important;
@@ -270,7 +253,7 @@
     background: #1f2226;
     color: #ddd;
     border: 1px solid #46484f;
-}
+  }
   a.list-group-item .list-group-item-heading {
     color: #ddd;
   }
