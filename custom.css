@@ -21,6 +21,7 @@
   .markdown-body blockquote {
     color: #ddd;
     border-left-color: #777;
+    font-size: 16px;
   }
   .markdown-body code {
     color: #424242 !important;
@@ -85,7 +86,6 @@
     background-color: #1e1e1e;
     border-top: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 6px, rgba(0, 0, 0, 0.4) 0px 1px 4px;
   }
   .markdown-body table tr:first-child {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -161,7 +161,7 @@
   .ui-toc-dropdown.dropdown-menu {
     background: #333;
   }
-  
+
   .toc-menu a {
     color: #ddd;
   }
@@ -172,12 +172,12 @@
 
   /* alert-warning */
   .alert-warning ul li {
-		color: #000;
-	}
-	.alert-warning a {
-		color: #2979ff;
-	}
-  
+    color: #000;
+  }
+  .alert-warning a {
+    color: #2979ff;
+  }
+
 
   /*--------------- editor ---------------*/
   .cm-m-markdown {
@@ -190,7 +190,7 @@
 
   .cm-s-one-dark .cm-string, .cm-s-one-dark .cm-variable-2 {
     color: #7bf;
-	}
+  }
 
   .cm-m-markdown.cm-variable-3 {
     color: #ff7e7e;
@@ -198,7 +198,7 @@
 
   .cm-s-one-dark .cm-link {
     color: #b0ee83;
-	}
+  }
 
   .cm-s-one-dark .CodeMirror-linenumber {
     color: #666;
@@ -229,10 +229,10 @@
     color: #ddd;
     border-color: #777 !important;
   }
-	.summary .nav > li > a {
+  .summary .nav > li > a {
     color: #7bf;
   }
-	.summary .nav-pills > li.active > a, .summary .nav-pills > li.active > a:focus, .summary .nav-pills > li.active > a:hover {
+  .summary .nav-pills > li.active > a, .summary .nav-pills > li.active > a:focus, .summary .nav-pills > li.active > a:hover {
     color: #ff9100;
   }
 }
