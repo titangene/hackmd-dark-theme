@@ -127,13 +127,17 @@
     margin-top: 0;
 	}
 
-	.alert > p {
-		margin-top: 0px !important;
-		margin-bottom: 10px !important;
-	}			
+	.markdown-body .alert > p {
+		margin-top: 0px;
+		margin-bottom: 10px;
+	}
 
-	.alert > ul, .alert > ol {
-		margin-bottom: 16px !important;
+	.markdown-body .alert > ul, .markdown-body .alert > ol {
+		margin-bottom: 16px;
+	}
+
+	.markdown-body .alert > *:last-child {
+    margin-bottom: 0;
 	}
 
 	.alert-warning {
