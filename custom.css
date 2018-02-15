@@ -217,8 +217,8 @@
   .cm-strong {
     color: #f4511e;
   }
-  .cm-comment {
-    color: #888 !important;
+  .cm-s-one-dark .cm-comment {
+    color: #888;
   }
   .cm-matchhighlight {
     color: #ffea00;
@@ -242,7 +242,7 @@
     color: #ff9100;
   }
 
-  /* code mirror */
+  /*--------------- code mirror ---------------*/
   .modal-content {
     background: #1f2226;
   }
@@ -275,6 +275,12 @@
     background: #1f2226;
     border-right: 1px solid rgba(204, 217, 255, 0.1);
   }
+  .cm-s-default .cm-comment {
+    color: #888;
+  }
+  .cm-s-default .cm-quote {
+    color: #ddd;
+  }
   .cm-s-default .cm-header {
     color: #ffa653;
   }
@@ -284,6 +290,21 @@
   .cm-s-default .cm-string, .cm-s-default .cm-variable-2 {
     color: #7bf;
   }
+  .cm-s-default .cm-def {
+    color: #c678dd;
+  }
+  .cm-s-default .cm-number, .cm-s-default .cm-attribute, .cm-s-default .cm-qualifier, .cm-s-default .cm-plus, .cm-s-default .cm-atom {
+    color: #eda35e;
+  }
+  .cm-s-default .cm-property, .cm-s-default .cm-variable, .cm-s-default .cm-variable-3, .cm-s-default .cm-operator, .cm-s-default .cm-bracket {
+    color: #f76e79;
+  }
+  .cm-s-default .cm-keyword, .cm-s-default .cm-builtin, .cm-s-default .cm-tag {
+    color: #98c379;
+  }
+  .CodeMirror pre {
+    color: #ddd;
+  }
   .CodeMirror-lines .cm-m-markdown[style^="background-color: rgba(230, 255, 230, 0.7); text-decoration: underline;"] {
     background-color: #288c27 !important;
   }
@@ -291,4 +312,3 @@
     background-color: #a52721 !important;
   }
 }
-
