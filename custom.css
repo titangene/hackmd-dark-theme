@@ -27,6 +27,9 @@
     color: #dfdfdf !important;
     background-color: #59626e;
   }
+  .markdown-body pre code {
+    color: #333 !important;
+  }
   blockquote .small, blockquote footer, blockquote small {
     color: #bbb;
   }
