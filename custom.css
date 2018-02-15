@@ -255,4 +255,54 @@
   .summary .nav-pills > li.active > a, .summary .nav-pills > li.active > a:focus, .summary .nav-pills > li.active > a:hover {
     color: #ff9100;
   }
+
+  /* code mirror */
+  .modal-content {
+    background: #1f2226;
+  }
+  .modal-header {
+    border-bottom: 1px solid #46484f;
+  }
+  .modal-footer {
+    border-top: 1px solid #46484f;
+  }
+  a.list-group-item {
+    background: #1f2226;
+    color: #ddd;
+    border: 1px solid #46484f;
 }
+  a.list-group-item .list-group-item-heading {
+    color: #ddd;
+  }
+  a.list-group-item:focus, a.list-group-item:hover {
+    background: #434651;
+    color: #ddd;
+  }
+  button.close {
+    color: #ddd;
+    opacity: .5;
+  }
+  .CodeMirror {
+    background: #1f2226;
+  }
+  .CodeMirror-gutters {
+    background: #1f2226;
+    border-right: 1px solid rgba(204, 217, 255, 0.1);
+  }
+  .cm-s-default .cm-header {
+    color: #ffa653;
+  }
+  .cm-s-default .cm-link {
+    color: #b0ee83;
+  }
+  .cm-s-default .cm-string, .cm-s-default .cm-variable-2 {
+    color: #7bf;
+  }
+  .CodeMirror-lines .cm-m-markdown[style^="background-color: rgba(230, 255, 230, 0.7); text-decoration: underline;"] {
+    background-color: #288c27 !important;
+  }
+  .CodeMirror-lines .cm-m-markdown[style^="background-color: rgba(255, 230, 230, 0.7); text-decoration: line-through;"] {
+    background-color: #a52721 !important;
+  }
+}
+
