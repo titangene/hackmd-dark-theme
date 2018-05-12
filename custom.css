@@ -24,11 +24,14 @@
     font-size: 16px;
   }
   .markdown-body code {
-    color: #dfdfdf !important;
-    background-color: #59626e;
+    color: #cacaca !important
+    background-color: #292929;
   }
-  .markdown-body pre code {
-    color: #333 !important;
+  .markdown-body code {
+      color: #cacaca !important
+  }
+  .markdown-body .highlight pre, .markdown-body pre {
+      background-color: #292929;
   }
   blockquote .small, blockquote footer, blockquote small {
     color: #bbb;
@@ -197,7 +200,7 @@
 
   /*--------------- editor ---------------*/
   .cm-m-markdown {
-    color: #ddd;   
+    color: #ddd;
   }
   .cm-s-one-dark .cm-header, .cm-m-xml.cm-attribute {
     color: #ffa653;
@@ -310,5 +313,8 @@
   }
   .CodeMirror-lines .cm-m-markdown[style^="background-color: rgba(255, 230, 230, 0.7); text-decoration: line-through;"] {
     background-color: #a52721 !important;
+  }
+  .navbar-default {
+    background-color: #1e1e1e;
   }
 }
