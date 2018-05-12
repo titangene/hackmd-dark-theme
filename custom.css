@@ -314,4 +314,7 @@
   .CodeMirror-lines .cm-m-markdown[style^="background-color: rgba(255, 230, 230, 0.7); text-decoration: line-through;"] {
     background-color: #a52721 !important;
   }
+  .navbar-default {
+    background-color: #1e1e1e;
+  }
 }
