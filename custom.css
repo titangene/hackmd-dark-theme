@@ -378,10 +378,10 @@
   .CodeMirror pre {
     color: #ddd;
   }
-  .CodeMirror-lines .cm-m-markdown[style^="background-color: rgba(230, 255, 230, 0.7); text-decoration: underline;"] {
+  .CodeMirror-lines span[style^="background-color: rgba(230, 255, 230, 0.7); text-decoration: underline;"] {
     background-color: #288c27 !important;
   }
-  .CodeMirror-lines .cm-m-markdown[style^="background-color: rgba(255, 230, 230, 0.7); text-decoration: line-through;"] {
+  .CodeMirror-lines span[style^="background-color: rgba(255, 230, 230, 0.7); text-decoration: line-through;"] {
     background-color: #a52721 !important;
   }
 
