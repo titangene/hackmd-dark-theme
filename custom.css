@@ -607,4 +607,90 @@
   .token.inserted {
     color: green;
   }
+
+  /*---------- code highlight: dark theme for Gist ----------*/
+  .gist .gist-file {
+    border: 1px solid #555;
+  }
+  .gist .gist-data {
+    background-color: #1e1e1e;
+    border-bottom: 1px solid #555;
+  }
+  .gist .gist-meta {
+    background-color: #424a55;
+    color: #eee;
+  }
+  .gist .gist-meta a {
+    color: #eee;
+  }
+  .gist .highlight {
+    color: #eee;
+    background-color: #1e1e1e;
+  }
+  .gist .blob-num {
+    color: #afafaf;
+  }
+  .gist .blob-code-inner {
+    color: #dfdfdf;
+  }
+  .pl-mb {
+    color: #fff !important;
+  }
+  .pl-c {
+    color: #57A64A !important;
+  }
+  /* comment */
+  .pl-ent {
+    color: #569CD6 !important;
+  }
+  /* entity */
+  .pl-e {
+    color: #9CDCFE !important;
+  }
+  .pl-en {
+    color: #4EC9B0 !important;
+  }
+  /* entity attribute */
+  .pl-smi {
+    color: #9CDCFE !important;
+  }
+  .pl-k {
+    color: #569cd6 !important;
+  }
+  .pl-c1,
+  .pl-s .pl-v {
+    color: #4EC9B0 !important;
+  }
+  .pl-pds,
+  .pl-s,
+  .pl-s .pl-pse .pl-s1,
+  .pl-sr,
+  .pl-sr .pl-cce,
+  .pl-sr .pl-sra,
+  .pl-sr .pl-sre,
+	.pl-s .pl-s1 {
+    color: #D69D85 !important;
+  }
+	.pl-s .pl-s1 .pl-pse {
+    color: #c5dbff !important;
+	}
+  /* strings */
+  .diff-table .pl-c,
+  .diff-table .pl-ent,
+  .diff-table .pl-e,
+  .diff-table .pl-en,
+  .diff-table .pl-pds,
+  .diff-table .pl-s,
+	.diff-table .pl-s .pl-s1,
+  .diff-table .pl-s .pl-pse .pl-s1,
+  .diff-table .pl-sr,
+  .diff-table .pl-sr .pl-cce,
+  .diff-table .pl-sr .pl-sra,
+  .diff-table .pl-sr .pl-sre,
+  .diff-table .pl-k,
+  .diff-table .pl-smi,
+  .diff-table .pl-c1,
+  .diff-table .pl-v {
+    color: #eee !important;
+  }
 }
