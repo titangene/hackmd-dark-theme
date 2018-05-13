@@ -39,7 +39,9 @@
   .navbar-default .btn-link:hover {
     color: #eee;
   }
-  .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  .navbar-default .navbar-nav>.open>a,
+  .navbar-default .navbar-nav>.open>a:focus,
+  .navbar-default .navbar-nav>.open>a:hover {
     background-color: #555;
   }
   .navbar-nav>li>.dropdown-menu {
@@ -50,14 +52,22 @@
   .dropdown-header {
     color: #aaa;
   }
-  .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+  .dropdown-menu>li>a:focus,
+  .dropdown-menu>li>a:hover {
     background-color: #555555;
   }
   .dropdown-menu .divider {
     background-color: #555;
   }
 
-  .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6, .markdown-body hr {
+  /* doc view */
+  .markdown-body h1,
+  .markdown-body h2,
+  .markdown-body h3,
+  .markdown-body h4,
+  .markdown-body h5,
+  .markdown-body h6,
+  .markdown-body hr {
     color: #ddd;
     border-color: #777 !important;
   }
@@ -81,7 +91,8 @@
   .markdown-body a {
     color: #7bf;
   }
-  .markdown-body ul li, ol li {
+  .markdown-body ul li,
+  .markdown-body ol li {
     color: #ddd;
   }
   .markdown-body blockquote {
@@ -97,7 +108,9 @@
     background-color: #1e1e1e;
     border: 1px solid #555 !important;
   }
-  blockquote .small, blockquote footer, blockquote small {
+  blockquote .small,
+  blockquote footer,
+  blockquote small {
     color: #bbb;
   }
   .mark, mark {
@@ -169,35 +182,55 @@
   .markdown-body table th, .markdown-body table td {
       border: none;
   }
-  .markdown-body table tr th:first-child, .markdown-body table tr td:first-child {
+  .markdown-body table tr th:first-child,
+  .markdown-body table tr td:first-child {
     border-left: 1px solid rgba(255, 255, 255, 0.1);
   }
-  .markdown-body table tr th:last-child, .markdown-body table tr td:last-child {
+  .markdown-body table tr th:last-child,
+  .markdown-body table tr td:last-child {
     border-right: 1px solid rgba(255, 255, 255, 0.1);
   }
   .markdown-body table tr td {
     color: #ddd;
   }
-  .markdown-body pre.flow-chart, .markdown-body pre.sequence-diagram, .markdown-body pre.graphviz, .markdown-body pre.mermaid, .markdown-body pre.abc {
+  .markdown-body pre.flow-chart,
+  .markdown-body pre.sequence-diagram,
+  .markdown-body pre.graphviz,
+  .markdown-body pre.mermaid,
+  .markdown-body pre.abc {
     background-color: #fff !important;
   }
 
   /* alert */
-  .alert h1, .alert h2, .alert h3, .alert h4, .alert h5, .alert h6, .alert p, .alert ul li, .alert ol li {
+  .alert h1,
+  .alert h2,
+  .alert h3,
+  .alert h4,
+  .alert h5,
+  .alert h6,
+  .alert p,
+  .alert ul li,
+  .alert ol li {
     color: #31708f;
   }
   .alert a {
     color: #002752;
     font-weight: 700;
   }
-  .alert h1:first-child, .alert h2:first-child, .alert h3:first-child, .alert h4:first-child, .alert h5:first-child, .alert h6:first-child {
+  .alert h1:first-child,
+  .alert h2:first-child,
+  .alert h3:first-child,
+  .alert h4:first-child,
+  .alert h5:first-child,
+  .alert h6:first-child {
     margin-top: 0;
   }
   .markdown-body .alert > p {
     margin-top: 0px;
     margin-bottom: 10px;
   }
-  .markdown-body .alert > ul, .markdown-body .alert > ol {
+  .markdown-body .alert > ul,
+  .markdown-body .alert > ol {
     margin-bottom: 16px;
   }
   .markdown-body .alert > *:last-child {
@@ -239,12 +272,15 @@
     color: #ddd;
   }
   /* table of contents text: active*/
-  .ui-toc-dropdown .nav > .active:focus > a, .ui-toc-dropdown .nav > .active:hover > a, .ui-toc-dropdown .nav > .active > a {
+  .ui-toc-dropdown .nav > .active:focus > a,
+  .ui-toc-dropdown .nav > .active:hover > a,
+  .ui-toc-dropdown .nav > .active > a {
     color: #7bf;
     border-left-color: #7bf;
   }
   /* table of contents text: focus, hover*/
-  .ui-toc-dropdown .nav > li > a:focus, .ui-toc-dropdown .nav > li > a:hover {
+  .ui-toc-dropdown .nav > li > a:focus,
+  .ui-toc-dropdown .nav > li > a:hover {
     color: #7bf;
     border-left-color: #7bf;
   }
@@ -266,10 +302,12 @@
   .cm-m-markdown {
     color: #ddd;   
   }
-  .cm-s-one-dark .cm-header, .cm-m-xml.cm-attribute {
+  .cm-s-one-dark .cm-header,
+  .cm-m-xml.cm-attribute {
     color: #ffa653;
   }
-  .cm-s-one-dark .cm-string, .cm-s-one-dark .cm-variable-2 {
+  .cm-s-one-dark .cm-string,
+  .cm-s-one-dark .cm-variable-2 {
     color: #7bf;
   }
   .cm-m-markdown.cm-variable-3 {
@@ -305,7 +343,9 @@
   .summary .nav > li > a {
     color: #7bf;
   }
-  .summary .nav-pills > li.active > a, .summary .nav-pills > li.active > a:focus, .summary .nav-pills > li.active > a:hover {
+  .summary .nav-pills > li.active > a,
+  .summary .nav-pills > li.active > a:focus,
+  .summary .nav-pills > li.active > a:hover {
     color: #ff9100;
   }
 
@@ -327,7 +367,8 @@
   a.list-group-item .list-group-item-heading {
     color: #ddd;
   }
-  a.list-group-item:focus, a.list-group-item:hover {
+  a.list-group-item:focus,
+  a.list-group-item:hover {
     background: #434651;
     color: #ddd;
   }
@@ -354,19 +395,30 @@
   .cm-s-default .cm-link {
     color: #b0ee83;
   }
-  .cm-s-default .cm-string, .cm-s-default .cm-variable-2 {
+  .cm-s-default .cm-string,
+  .cm-s-default .cm-variable-2 {
     color: #7bf;
   }
   .cm-s-default .cm-def {
     color: #c678dd;
   }
-  .cm-s-default .cm-number, .cm-s-default .cm-attribute, .cm-s-default .cm-qualifier, .cm-s-default .cm-plus, .cm-s-default .cm-atom {
+  .cm-s-default .cm-number,
+  .cm-s-default .cm-attribute,
+  .cm-s-default .cm-qualifier,
+  .cm-s-default .cm-plus,
+  .cm-s-default .cm-atom {
     color: #eda35e;
   }
-  .cm-s-default .cm-property, .cm-s-default .cm-variable, .cm-s-default .cm-variable-3, .cm-s-default .cm-operator, .cm-s-default .cm-bracket {
+  .cm-s-default .cm-property,
+  .cm-s-default .cm-variable,
+  .cm-s-default .cm-variable-3,
+  .cm-s-default .cm-operator,
+  .cm-s-default .cm-bracket {
     color: #f76e79;
   }
-  .cm-s-default .cm-keyword, .cm-s-default .cm-builtin, .cm-s-default .cm-tag {
+  .cm-s-default .cm-keyword,
+  .cm-s-default .cm-builtin,
+  .cm-s-default .cm-tag {
     color: #98c379;
   }
   .modal-title {
