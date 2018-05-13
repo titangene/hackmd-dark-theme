@@ -369,6 +369,12 @@
   .cm-s-default .cm-keyword, .cm-s-default .cm-builtin, .cm-s-default .cm-tag {
     color: #98c379;
   }
+  .modal-title {
+    color: #ccc;
+  }
+  div[contenteditable]:empty:not(:focus):before {
+    color: #aaa;
+  }
   .CodeMirror pre {
     color: #ddd;
   }
