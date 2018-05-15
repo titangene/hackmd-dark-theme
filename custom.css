@@ -44,13 +44,13 @@
   .navbar-default .navbar-nav>.open>a:hover {
     background-color: #555;
   }
-  .navbar-nav>li>.dropdown-menu {
+  .dropdown-header {
+    color: #aaa;
+  }
+  .dropdown-menu {
     background-color: #222;
     border: 1px solid #555;
     border-top: none;
-  }
-  .dropdown-header {
-    color: #aaa;
   }
   .dropdown-menu>li>a:focus,
   .dropdown-menu>li>a:hover {
