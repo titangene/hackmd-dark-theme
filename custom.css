@@ -638,6 +638,7 @@
 
   .token.operator {
     color: #DCDCDC;
+    background: transparent;
   }
 
   .token.url {
