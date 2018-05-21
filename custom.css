@@ -329,6 +329,13 @@
   .cm-matchhighlight {
     color: #ffea00;
   }
+  .dropdown-menu.CodeMirror-other-cursor {
+    border: 2px solid #4d4d4d;
+    background-color: #202020;
+  }
+  .dropdown-menu.CodeMirror-other-cursor li a {
+    color: #ececec;
+  }
 
   /*--------------- book mode ---------------*/
   #summary, .toolbar {
