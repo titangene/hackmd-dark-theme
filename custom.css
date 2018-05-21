@@ -100,7 +100,8 @@
     border-left-color: #777;
     font-size: 16px;
   }
-  .markdown-body code {
+  .markdown-body code,
+  code {
     color: #dfdfdf !important;
     background-color: #424a55;
   }
