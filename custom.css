@@ -71,7 +71,8 @@
   .markdown-body h4,
   .markdown-body h5,
   .markdown-body h6,
-  .markdown-body hr {
+  .markdown-body hr,
+  #doc > h1 {
     color: #ddd;
     border-color: #777 !important;
   }
