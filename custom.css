@@ -113,6 +113,7 @@
   .markdown-body pre {
     background-color: #1e1e1e;
     border: 1px solid #555 !important;
+    color: #dfdfdf;
   }
   blockquote .small,
   blockquote footer,
