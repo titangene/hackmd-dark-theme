@@ -121,7 +121,7 @@
     color: #bbb;
   }
   .mark, mark {
-    background: #fff9b1;
+    background: rgba(255, 255, 0, 0.32);
   }
 
   /* TODO list */
