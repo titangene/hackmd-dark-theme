@@ -456,6 +456,9 @@
   .modal-title {
     color: #ccc;
   }
+  .modal-body {
+    color: #ccc !important;
+  }
   div[contenteditable]:empty:not(:focus):before {
     color: #aaa;
   }
