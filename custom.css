@@ -96,6 +96,9 @@
   .markdown-body a {
     color: #7bf;
   }
+  .markdown-body a code {
+    color: #7bf !important;
+  }
   .markdown-body ul li,
   .markdown-body ol li {
     color: #ddd;
