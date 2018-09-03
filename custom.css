@@ -124,7 +124,7 @@
     color: #bbb;
   }
   .mark, mark {
-    background: rgba(255, 255, 0, 0.32);
+    background-color: rgba(255, 255, 0, 0.32) !important;
     color: #ddd;
     margin: .1em;
     padding: .1em .2em;
