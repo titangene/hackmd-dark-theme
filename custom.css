@@ -854,6 +854,71 @@
   .table>thead>tr>th {
     border-color: #6d6d6d;
   }
+
+  /*--------------- comment ---------------*/
+  .ui-comment-container .ui-comment-header {
+    background-color: #2a2a2a;
+    color: #eee;
+    border-color: #6d6d6d;
+  }
+
+  .ui-comment-container {
+    background-color: #2e2e2e;
+    border-color: #6d6d6d;
+  }
+
+  .ui-comment-container .ui-comments-container .ui-comment .comment-author {
+    color: #eee;
+  }
+
+  .ui-comment-container .ui-comments-container .ui-comment .timestamp {
+    color: #aaa;
+  }
+
+  .ui-comment-container .ui-comments-container .ui-comment .comment-content {
+    color: #eee;
+  }
+
+  .ui-comment-container .ui-comments-container .ui-comment .comment-menu {
+    color: #eee;
+  }
+
+  .ui-comment-container .ui-comments-container .ui-comment .comment-menu .comment-dropdown-menu {
+    background: #222;
+    color: #eee;
+    border-color: #555;
+  }
+
+  .ui-comment-container .ui-comments-container .ui-comment .comment-menu .comment-dropdown-menu>div:hover {
+    background-color: #555555;
+    color: #eee;
+  }
+
+  .ui-comment-container .ui-comments-container .ui-comment .comment-menu:hover,
+  .ui-comment-container .ui-comments-container .ui-comment .comment-menu:active,
+  .ui-comment-container .ui-comments-container .ui-comment .comment-menu.active {
+    background-color: #737373;
+    color: #eee;
+  }
+
+  .ui-comment-container .ui-comment-input-container {
+    background-color: #3c3c3c;
+  }
+
+  .ui-comment-container textarea {
+    background-color: #3e4045;
+    color: #eee;
+    border: 1px solid #6d6d6d;
+  }
+
+  .ui-comment-container textarea::placeholder,
+  .ui-comment-container textarea::-webkit-input-placeholder,
+  .ui-comment-container textarea:-moz-placeholder,
+  .ui-comment-container textarea::-moz-placeholder,
+  .ui-comment-container textarea:-ms-input-placeholder {
+    color: #eee;
+  }
+
   /*--------------- code mirror ---------------*/
   .modal-content {
     background: #1f2226;
