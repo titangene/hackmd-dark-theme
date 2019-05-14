@@ -2,38 +2,46 @@
 Dark theme for HackMD
 
 ## Installing
-Install browser extension: Stylish - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/2108/), [Chrome](https://chrome.google.com/extensions/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Opera](https://addons.opera.com/en/extensions/details/stylish/), [Safari](http://sobolev.us/stylish/) and [Firefox Mobile](https://addons.mozilla.org/en-US/firefox/addon/2108/).
+Install browser extension: Stylus - get the addon for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Firefox](https://addons.mozilla.org/zh-TW/firefox/addon/styl-us/) and [Opera](https://addons.opera.com/zh-tw/extensions/details/stylus/).
 
 Then install this style using: [userstyles.org](https://userstyles.org/styles/147272/hackmd-dark-theme)
 
 ## Screenshots
-### Book mode
-![](./Screenshot/HackMD-Dark-Theme_1.png)
+### Overview
+![](./Screenshot/overview.png)
 
-### Code highlight
-
-![](./Screenshot/HackMD-Dark-Theme_2.png)
-
-### Github Gist
-
-![](./Screenshot/HackMD-Dark-Theme_7.png)
-
-### LaTeX
-
-![](./Screenshot/HackMD-Dark-Theme_3.png)
-
-### Table
-
-![](./Screenshot/HackMD-Dark-Theme_4.png)
-
-### ToC (Table of Contents)
-
-![](./Screenshot/HackMD-Dark-Theme_5.png)
+### Recent
+![](./Screenshot/recent.png)
 
 ### View mode
+![](./Screenshot/view.png)
 
-![](./Screenshot/HackMD-Dark-Theme_6.png)
+### Book mode
+![](./Screenshot/book-mode.png)
+
+### Slide mode
+![](./Screenshot/slide.png)
+
+### Emoji & Todo list & Code block highlight
+![](./Screenshot/emoji_todo-list_code-block.png)
+
+### Github Gist
+![](./Screenshot/gist.png)
+
+### LaTeX & UML
+![](./Screenshot/latex_uml.png)
+
+### Table
+![](./Screenshot/table.png)
+
+### ToC (Table of Contents)
+![](./Screenshot/toc.png)
 
 ### History
+![](./Screenshot/history.png)
 
-![](./Screenshot/HackMD-Dark-Theme_8.png)
+### Permission
+![](./Screenshot/permission.png)
+
+### Comment
+![](./Screenshot/comment.png)
