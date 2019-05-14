@@ -346,6 +346,11 @@
     border-color: #6a6a6a;
   }
 
+  .pagination.dark>li>a,
+  .pagination.dark>li>span {
+    color: #aaa;
+  }
+
   /*--------------- settings ---------------*/
   .section .form-horizontal .form-group .btn-default {
     font-size: 16px;
