@@ -1,8 +1,9 @@
 @-moz-document regexp('https:\/\/.*hackmd\.io\/.*') {
 
   /*--------------- view ---------------*/
-  body[style] {
-    background: #1e1e1e;
+  body[style],
+  body[style*="background-color: white;"] {
+    background-color: #1e1e1e !important;
   }
 
   body {
