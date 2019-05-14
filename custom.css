@@ -823,6 +823,18 @@
     z-index: 1;
     display: block;
   }
+
+  /* notification */
+  .dropdown.ui-notification .ui-notification-label,
+  .dropdown.ui-invitee .ui-invitee-label {
+    color: #eee;
+    border-color: #6a6a6a;
+  }
+
+  .ui-notification .dropdown-menu {
+    border-top: 1px solid #555;
+  }
+
   /*--------------- help ---------------*/
   .modal-header {
     background-color: #2a2a2a;
