@@ -1098,6 +1098,11 @@
     opacity: .5;
   }
 
+  .close:focus, .close:hover {
+    color: #fff;
+    opacity: .8;
+  }
+
   .CodeMirror {
     background: #1f2226;
   }
