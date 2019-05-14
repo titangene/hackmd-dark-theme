@@ -367,6 +367,28 @@
   .section .form-horizontal .form-control:focus {
     border-color: #bbb;
   }
+
+  /*--------------- share view ---------------*/
+  #notificationLabel,
+  .ui-infobar .btn.ui-edit {
+    color: #eee;
+    border-color: #6a6a6a;
+  }
+
+  .ui-infobar__user-info li {
+    color: #bbb;
+  }
+
+  footer {
+    background: #101010;
+    color: #bbb;
+    border-top: 1px solid #454545;
+  }
+
+  footer a {
+    color: #bbb;
+  }
+
   /*--------------- doc view ---------------*/
   .markdown-body h1,
   .markdown-body h2,
