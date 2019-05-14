@@ -349,6 +349,24 @@
     background-color: #2e2e2e;
     border-color: #6a6a6a;
   }
+
+  /*--------------- settings ---------------*/
+  .section .form-horizontal .form-group .btn-default {
+    font-size: 16px;
+    border-color: #6d6d6d;
+    background-color: #333;
+    color: #FFF;
+  }
+
+  .section .form-horizontal .form-group .btn-default:hover,
+  .section .form-horizontal .form-group .btn-default:focus {
+    background-color: #737373;
+    color: #FFF;
+  }
+
+  .section .form-horizontal .form-control:focus {
+    border-color: #bbb;
+  }
   /*--------------- doc view ---------------*/
   .markdown-body h1,
   .markdown-body h2,
