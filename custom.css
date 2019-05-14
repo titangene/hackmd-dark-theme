@@ -1175,11 +1175,11 @@
     color: #ddd;
   }
 
-  .CodeMirror-lines span[style^="background-color: rgba(230, 255, 230, 0.7); text-decoration: underline;"] {
+  .CodeMirror pre span[style^="background-color: rgb(221, 251, 230)"] {
     background-color: #288c27 !important;
   }
 
-  .CodeMirror-lines span[style^="background-color: rgba(255, 230, 230, 0.7); text-decoration: line-through;"] {
+  .CodeMirror pre span[style^="background-color: rgb(249, 215, 220)"] {
     background-color: #a52721 !important;
   }
 
