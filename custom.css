@@ -1,6 +1,10 @@
 @-moz-document regexp('https:\/\/.*hackmd\.io\/.*') {
 
   /*--------------- view ---------------*/
+  body[style] {
+    background: #1e1e1e;
+  }
+
   body {
     color: #abb2bf;
   }
@@ -677,6 +681,12 @@
     color: #ff9100;
   }
 
+  /* fix body background color to dark */
+  div[class$=container-mask] {
+    background: #1e1e1e;
+    z-index: 1;
+    display: block;
+  }
   /*--------------- code mirror ---------------*/
   .modal-content {
     background: #1f2226;
