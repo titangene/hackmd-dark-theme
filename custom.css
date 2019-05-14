@@ -142,7 +142,7 @@
     border: 1px solid #dc3545;
   }
 
-  /*--------------- history / recent list ---------------*/
+  /*--------------- history / recent ---------------*/
   .list.row-layout li .item {
     border-color: #696c7d;
   }
@@ -232,8 +232,10 @@
   }
 
   .search::placeholder,
-  .search:-ms-input-placeholder,
-  .search::-ms-input-placeholder {
+  .search::-webkit-input-placeholder,
+  .search:-moz-placeholder,
+  .search::-moz-placeholder,
+  .search:-ms-input-placeholder {
     color: #eee;
   }
 
@@ -252,6 +254,10 @@
     color: #eee;
   }
 
+  .select2-container-multi .select2-choices {
+    background: #3e4045;
+  }
+
   .select2-container-multi .select2-choices .select2-search-choice {
     background: #131313;
     color: #eee;
@@ -259,10 +265,40 @@
     box-shadow: none;
   }
 
+  .btn-default,
+  .btn-default:focus {
+    color: #eee;
+    background-color: #2e2e2e;
+    border-color: #6a6a6a;
+  }
+
+  .btn-default.active.focus,
+  .btn-default.active:focus,
+  .btn-default.active:hover,
+  .btn-default:active.focus,
+  .btn-default:active:focus,
+  .btn-default:active:hover,
+  .open>.dropdown-toggle.btn-default.focus,
+  .open>.dropdown-toggle.btn-default:focus,
+  .open>.dropdown-toggle.btn-default:hover {
+    background: #737373;
+  }
+
+  .btn-default:hover {
+    color: #fff;
+    background-color: #7d7d7d;
+    border-color: #6a6a6a;
+  }
+
+  .overview-widget-group .btn.active {
+    background-color: #6a6a6a;
+    color: #eee;
+  }
+
   .overview-widget-group .btn:hover {
-    background-color: #e6e6e6;
-    color: #333;
-    border-color: #D4D4D4;
+    background-color: #7d7d7d;
+    color: #eee;
+    border-color: #636363;
   }
 
   .overview-widget-group .slider.round {
@@ -285,6 +321,34 @@
     color: #f00;
   }
 
+  .ui-history-close {
+    color: #eee;
+    opacity: 0.5;
+  }
+
+  .pagination>li>a,
+  .pagination>li>span {
+    color: #eee;
+    background-color: #2e2e2e;
+    border-color: #6a6a6a;
+  }
+
+  .pagination>li>a:hover {
+    color: #fff;
+    background-color: #7d7d7d;
+    border-color: #6a6a6a;
+  }
+
+  .pagination>.disabled>a,
+  .pagination>.disabled>a:focus,
+  .pagination>.disabled>a:hover,
+  .pagination>.disabled>span,
+  .pagination>.disabled>span:focus,
+  .pagination>.disabled>span:hover {
+    color: #eee;
+    background-color: #2e2e2e;
+    border-color: #6a6a6a;
+  }
   /*--------------- doc view ---------------*/
   .markdown-body h1,
   .markdown-body h2,
