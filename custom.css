@@ -31,6 +31,20 @@
     border-color: #6d6d6d;
   }
 
+  /* form */
+  .form-control {
+    background: #333;
+    color: #fff;
+  }
+
+  .form-control::placeholder,
+  .form-control::-webkit-input-placeholder,
+  .form-control:-moz-placeholder,
+  .form-control::-moz-placeholder,
+  .form-control:-ms-input-placeholder {
+    color: #eee;
+  }
+
   /*--------------- navbar ---------------*/
   .header {
     background-color: #0e0e0e;
