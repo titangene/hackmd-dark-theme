@@ -967,6 +967,85 @@
     color: #eee;
   }
 
+
+  /*--------------- template ---------------*/
+  .template-content .modal-header {
+    background: #2a2a2a;
+  }
+
+  .template-content .close {
+    color: #fff;
+  }
+
+  .template-content .modal-title {
+    color: #eee;
+  }
+
+  .template-content .ui-templates-container {
+    border-color: #6d6d6d;
+  }
+
+  .ui-templates-container .ui-create-template-btn {
+    background: #446fab;
+    color: #fff;
+  }
+
+  .ui-template-list-filter .ui-template-list-filter-label,
+  .ui-template-list-filter .ui-template-list-filter-label:hover {
+    color: #eee;
+  }
+
+  .ui-template-list .list-group-item.active {
+    background: #4d4d4d;
+  }
+
+  .ui-template-list .list-group-item.active:focus {
+    background: #4d4d4d !important;
+  }
+
+  .list-group-item.active,
+  .list-group-item.active:focus,
+  .list-group-item.active:hover {
+    color: #eee;
+  }
+
+  .ui-template-list .list-group-item .list-group-item-heading {
+    color: #eee;
+  }
+
+  .ui-template-list .list-group-item.active .list-group-item-heading {
+    color: #eee;
+  }
+
+  .ui-template-list .list-group-item:hover {
+    background: #4d4d4d !important;
+  }
+
+  .ui-template-item-menu {
+    color: #eee !important;
+  }
+
+  .ui-template-list .list-group-item {
+    color: #fff;
+  }
+
+  .ui-template-list .list-group-item .dropdown-container.open {
+    background-color: #2a2a2a;
+  }
+
+  .ui-template-list .list-group-item .dropdown-container:hover {
+    background-color: #2a2a2a !important;
+  }
+
+  .template-menu .more-template {
+    border-color: #6d6d6d;
+  }
+
+  .template-menu .more-template:hover {
+    color: #eee;
+    border-color: #6d6d6d;
+  }
+
   /*--------------- code mirror ---------------*/
   .modal-content {
     background: #1f2226;
