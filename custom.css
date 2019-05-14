@@ -823,6 +823,37 @@
     z-index: 1;
     display: block;
   }
+  /*--------------- help ---------------*/
+  .modal-header {
+    background-color: #2a2a2a;
+  }
+
+  .panel-default {
+    border-color: #6d6d6d;
+  }
+
+  .panel-default>.panel-heading {
+    background-color: #2a2a2a;
+    color: #eee;
+    border-color: #6d6d6d;
+  }
+
+  .panel-body {
+    background: #2e2e2e;
+  }
+
+  .panel-body a {
+    color: #7bf;
+  }
+
+  .table>tbody>tr>td,
+  .table>tbody>tr>th,
+  .table>tfoot>tr>td,
+  .table>tfoot>tr>th,
+  .table>thead>tr>td,
+  .table>thead>tr>th {
+    border-color: #6d6d6d;
+  }
   /*--------------- code mirror ---------------*/
   .modal-content {
     background: #1f2226;
