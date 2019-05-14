@@ -26,7 +26,7 @@
     border-color: #6d6d6d;
   }
 
-  /* navbar */
+  /*--------------- navbar ---------------*/
   .header {
     background-color: #0e0e0e;
     border-color: #0e0e0e;
@@ -138,7 +138,7 @@
     border: 1px solid #dc3545;
   }
 
-  /* history list */
+  /*--------------- history / recent list ---------------*/
   .list.row-layout li .item {
     border-color: #696c7d;
   }
@@ -281,7 +281,7 @@
     color: #f00;
   }
 
-  /* doc view */
+  /*--------------- doc view ---------------*/
   .markdown-body h1,
   .markdown-body h2,
   .markdown-body h3,
@@ -370,7 +370,7 @@
     padding: .1em .2em;
   }
 
-  /* TODO list */
+  /* Todo list */
   .task-list-item-checkbox {
     margin: 0.18em 0 0.2em -1.3em !important;
   }
@@ -878,9 +878,11 @@
     font-weight: bold;
   }
 
-  /*.hljs-code {
+  /*
+  .hljs-code {
     font-family:'Monospace';
-  }*/
+  }
+  */
 
   .hljs-bullet,
   .hljs-selector-tag,
