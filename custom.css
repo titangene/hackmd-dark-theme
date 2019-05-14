@@ -967,6 +967,19 @@
     color: #eee;
   }
 
+  @keyframes highlight {
+    0% {
+      background-color: #3c3c3c;
+    }
+
+    30% {
+      background-color: #3c3c3c;
+    }
+
+    100% {
+      background-color: transparent;
+    }
+  }
 
   /*--------------- template ---------------*/
   .template-content .modal-header {
