@@ -817,6 +817,22 @@
     color: #ff9100;
   }
 
+  .ui-summary-search {
+    font-size: 16px;
+    border: 1px solid #6D6D6D;
+    background-color: #333;
+    color: #FFF;
+  }
+
+  .summary h1,
+  .summary h2,
+  .summary h3,
+  .summary h4,
+  .summary h5,
+  .summary h6 {
+    border-color: #454545;
+  }
+
   /* fix body background color to dark */
   div[class$=container-mask] {
     background: #1e1e1e;
