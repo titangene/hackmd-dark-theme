@@ -123,6 +123,91 @@
     background-color: #dc3545;
     border: 1px solid #dc3545;
   }
+
+  /* history list */
+  .list.row-layout li .item {
+    border-color: #696c7d;
+  }
+
+  .list.row-layout li:nth-last-of-type(1) .item {
+    border-bottom: none;
+  }
+
+  .list li .item {
+    background: #1c1c1c;
+  }
+
+  .list li:hover .item,
+  .list li:focus .item {
+    background: #404040;
+  }
+
+  .list li .item h4 {
+    color: #fff;
+  }
+
+  .list li p {
+    color: #ccc;
+  }
+
+  .list li p i {
+    font-style: normal;
+  }
+
+  .list li .item .content .tags span {
+    background: #555;
+  }
+
+  .overview-widget-group .btn,
+  .multi-select-dropdown-menu .ui-dropdown-label,
+  .multi-select-dropdown-menu .dropdown-options,
+  .form-control {
+    border-color: #555;
+  }
+
+  .multi-select-dropdown-menu .dropdown-options .ui-option:hover {
+    background-color: #4d4d4d;
+    color: #eee;
+  }
+
+  .select2-results .select2-highlighted {
+    background: #4d4d4d;
+    color: #eee;
+  }
+
+  .select2-container-multi .select2-choices .select2-search-choice {
+    background: #131313;
+    color: #eee;
+    border-color: #555;
+    box-shadow: none;
+  }
+
+  .overview-widget-group .btn:hover {
+    background-color: #e6e6e6;
+    color: #333;
+    border-color: #D4D4D4;
+  }
+
+  .overview-widget-group .slider.round {
+    border-color: #ccc;
+  }
+
+  .overview-widget-group .slider.round:before {
+    border-color: #ccc;
+  }
+
+  .overview-widget-group input:checked+.slider {
+    background-color: #ccc;
+  }
+
+  .ui-category-description-icon a {
+    color: #eee;
+  }
+
+  .item .ui-history-pin.active {
+    color: #f00;
+  }
+
   /* doc view */
   .markdown-body h1,
   .markdown-body h2,
