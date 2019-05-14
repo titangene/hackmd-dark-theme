@@ -672,9 +672,24 @@
   }
 
   /*--------------- book mode ---------------*/
-  #summary,
+  .topbar {
+    background: #1e1e1e;
+  }
+
+  .btn.focus,
+  .btn:focus,
+  .btn:hover {
+    color: #aaa;
+  }
+
+  .summary {
+    background: #1e1e1e;
+  }
+
+  .summary,
   .toolbar {
     background: #1e1e1e !important;
+    border-color: #4d4d4d !important;
   }
 
   .toolbar i {
