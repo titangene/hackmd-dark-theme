@@ -591,17 +591,56 @@
   }
 
   /* alert */
-  .alert h1,
-  .alert h2,
-  .alert h3,
-  .alert h4,
-  .alert h5,
-  .alert h6,
-  .alert p,
-  .alert mark,
-  .alert ul li,
-  .alert ol li {
-    color: #31708f;
+  .alert-danger h1,
+  .alert-danger h2,
+  .alert-danger h3,
+  .alert-danger h4,
+  .alert-danger h5,
+  .alert-danger h6,
+  .alert-danger p,
+  .alert-danger mark,
+  .alert-danger ul li,
+  .alert-danger ol li {
+    color: #721c24;
+  }
+
+  .alert-warning h1,
+  .alert-warning h2,
+  .alert-warning h3,
+  .alert-warning h4,
+  .alert-warning h5,
+  .alert-warning h6,
+  .alert-warning p,
+  .alert-warning mark,
+  .alert-warning ul li,
+  .alert-warning ol li {
+    color: #856404;
+  }
+
+  .alert-success h1,
+  .alert-success h2,
+  .alert-success h3,
+  .alert-success h4,
+  .alert-success h5,
+  .alert-success h6,
+  .alert-success p,
+  .alert-success mark,
+  .alert-success ul li,
+  .alert-success ol li {
+    color: #155724;
+  }
+
+  .alert-info h1,
+  .alert-info h2,
+  .alert-info h3,
+  .alert-info h4,
+  .alert-info h5,
+  .alert-info h6,
+  .alert-info p,
+  .alert-info mark,
+  .alert-info ul li,
+  .alert-info ol li {
+    color: #004085;
   }
 
   .alert a {
@@ -635,6 +674,22 @@
   .alert-warning {
     background-color: #fff3cd;
     border-color: #ffeeba;
+  }
+
+  .alert-danger mark {
+    background-color: #ffb7b7 !important;
+  }
+
+  .alert-warning mark {
+    background-color: #ffe966 !important;
+  }
+
+  .alert-success mark {
+    background-color: #b9e990 !important;
+  }
+
+  .alert-info mark {
+    background-color: #b1d6ff !important;
   }
 
   /* scroll bar */
