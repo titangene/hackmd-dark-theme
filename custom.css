@@ -598,6 +598,7 @@
   .alert h5,
   .alert h6,
   .alert p,
+  .alert mark,
   .alert ul li,
   .alert ol li {
     color: #31708f;
