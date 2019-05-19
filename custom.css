@@ -1113,7 +1113,8 @@
     opacity: .5;
   }
 
-  .close:focus, .close:hover {
+  .close:focus,
+  .close:hover {
     color: #fff;
     opacity: .8;
   }
