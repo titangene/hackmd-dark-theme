@@ -125,6 +125,21 @@
     background-color: #202020;
   }
 
+  .ui-share-menu .ui-share-copy,
+  .ui-share-menu .ui-share-preview {
+    border-color: #6d6d6d !important;
+    background-color: #333 !important;
+    color: #FFF !important;
+  }
+
+  .ui-share-menu .ui-share-copy:hover,
+  .ui-share-menu .ui-share-copy:focus,
+  .ui-share-menu .ui-share-preview:hover,
+  .ui-share-menu .ui-share-preview:focus {
+    background-color: #737373 !important;
+    color: #FFF !important;
+  }
+  
   .navbar .announcement-popover {
     background: #4F4F4F;
   }
