@@ -536,6 +536,10 @@
     color: #dfdfdf;
   }
 
+  .markdown-body details {
+    margin-bottom: 16px;
+  }
+
   blockquote .small,
   blockquote footer,
   blockquote small {
