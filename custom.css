@@ -31,6 +31,7 @@
   .form-control {
     background: #333;
     color: #fff;
+    border-color: #8e8e8e;
   }
 
   .form-control::placeholder,
@@ -94,7 +95,7 @@
   }
 
   .dropdown-header {
-    color: #aaa;
+    color: #eee;
   }
 
   .dropdown-menu {
@@ -119,6 +120,39 @@
 
   .header .open .dropdown-menu {
     background-color: #202020;
+  }
+
+  .ui-share-menu .ui-share-copy,
+  .ui-share-menu .ui-share-preview {
+    border-color: #6d6d6d !important;
+    background-color: #333 !important;
+    color: #FFF !important;
+  }
+
+  .ui-share-menu .ui-share-copy:hover,
+  .ui-share-menu .ui-share-copy:focus,
+  .ui-share-menu .ui-share-preview:hover,
+  .ui-share-menu .ui-share-preview:focus {
+    background-color: #737373 !important;
+    color: #FFF !important;
+  }
+
+  .permission-dropdown .ui-more-settings,
+  .permission-dropdown .sidenav-trigger {
+    color: #7bf;
+  }
+
+  .public-published-toggle .unpublish:hover {
+    background-color: #286090;
+  }
+
+  .menuitem-dropdown .menuitem-dropdown-trigger {
+    border-color: #8e8e8e;
+  }
+
+  .menuitem-dropdown .menuitem-dropdown-trigger:hover,
+  .menuitem-dropdown .menuitem-dropdown-trigger:focus {
+    background-color: #3e4045;
   }
 
   .navbar .announcement-popover {
@@ -159,6 +193,7 @@
 
   .list li .item {
     background: #1c1c1c;
+    color: #fff;
   }
 
   .list li:hover .item,
@@ -207,7 +242,7 @@
   .multi-select-dropdown-menu .ui-dropdown-label,
   .multi-select-dropdown-menu .dropdown-options,
   .form-control {
-    border-color: #6d6d6d;
+    border-color: #8e8e8e;
   }
 
   .multi-select-dropdown-menu .dropdown-options .ui-option:hover {
@@ -759,14 +794,14 @@
     border-color: #636363 !important;
   }
 
-  .ui-delete-note a:hover,
-  .ui-delete-note a:focus,
-  .ui-delete-note a:active {
+  .ui-delete-note:hover,
+  .ui-delete-note:focus,
+  .ui-delete-note:active {
     background-color: #dc3545 !important;
   }
 
   .ui-invitee-invite {
-    border-color: #6a6a6a !important;
+    border-color: #8e8e8e !important;
   }
 
   .ui-invitee-invite:hover,
@@ -775,12 +810,8 @@
     color: #eee !important;
   }
 
-  .ui-invitee.ui-invitee-list .ui-invitee-remove,
-  .ui-invitee.ui-invitee-list .ui-invitee-remove:hover,
-  .ui-invitee.ui-invitee-list .ui-invitee-remove:focus,
-  .ui-invitee.ui-invitee-list .ui-invitee-remove:active {
-    background-color: #dc3545;
-    border: 1px solid #dc3545;
+  .ui-no-invitee-label {
+    color: #ccc !important;
   }
 
   .select2-container {
@@ -916,7 +947,8 @@
   .btn.focus,
   .btn:focus,
   .btn:hover {
-    color: #aaa;
+    color: #fff;
+    background-color: #333;
   }
 
   .summary {
