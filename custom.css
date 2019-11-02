@@ -897,16 +897,17 @@
     color: #ffa653;
   }
 
-  .cm-s-one-dark .cm-string,
-  .cm-s-one-dark .cm-variable-2 {
-    color: #7bf;
-  }
-
   .cm-m-markdown.cm-variable-3 {
     color: #ff7e7e;
   }
 
-  .cm-s-one-dark .cm-link {
+  .cm-s-one-dark .cm-string,
+  .cm-s-one-dark .cm-variable-2,
+  .cm-s-one-dark .cm-m-markdown.cm-url{
+    color: #7bf;
+  }
+
+  .cm-s-one-dark .cm-m-markdown.cm-link {
     color: #b0ee83;
   }
 
