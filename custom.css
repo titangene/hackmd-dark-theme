@@ -530,6 +530,10 @@
     background-color: #424a55;
   }
 
+  .markdown-body code {
+    padding: 1px 2px;
+  }
+
   .markdown-body pre {
     background-color: #1e1e1e;
     border: 1px solid #555 !important;
