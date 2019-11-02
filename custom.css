@@ -365,6 +365,29 @@
     color: #aaa;
   }
 
+  /*--------------- new overview ---------------*/
+.overview-component .list li .item {
+  background: #1c1c1c;
+  color: #fff;
+}
+
+.overview-component .list li:hover .item,
+.overview-component .list li:focus .item {
+  background: #404040;
+}
+
+.overview-component .list li p {
+  color: #ccc;
+}
+
+.overview-component .list li .item {
+  color: #888888;
+}
+
+.overview-component .ui-overview-pin {
+  opacity: 1;
+}
+
   /*--------------- settings ---------------*/
   .section .form-horizontal .form-group .btn-default {
     font-size: 16px;
