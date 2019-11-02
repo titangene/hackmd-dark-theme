@@ -27,10 +27,6 @@
     color: #ddd;
   }
 
-  hr {
-    border-color: #6d6d6d;
-  }
-
   /* form */
   .form-control {
     background: #333;
@@ -434,10 +430,13 @@
   .markdown-body h4,
   .markdown-body h5,
   .markdown-body h6,
-  .markdown-body hr,
   #doc>h1 {
     color: #ddd;
     border-color: #777 !important;
+  }
+
+  .markdown-body hr {
+    background-color: #7e7e7e;
   }
 
   .h1 .small,
@@ -627,6 +626,10 @@
     color: #721c24;
   }
 
+  .alert-danger hr {
+    background-color: #721c24;
+  }
+
   .alert-warning h1,
   .alert-warning h2,
   .alert-warning h3,
@@ -638,6 +641,10 @@
   .alert-warning ul li,
   .alert-warning ol li {
     color: #856404;
+  }
+
+  .alert-warning hr {
+    background-color: #856404;
   }
 
   .alert-success h1,
@@ -653,6 +660,10 @@
     color: #155724;
   }
 
+  .alert-success hr {
+    background-color: #155724;
+  }
+
   .alert-info h1,
   .alert-info h2,
   .alert-info h3,
@@ -664,6 +675,10 @@
   .alert-info ul li,
   .alert-info ol li {
     color: #004085;
+  }
+
+  .alert-info hr {
+    background-color: #004085;
   }
 
   .alert a {
