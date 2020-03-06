@@ -1,6 +1,9 @@
 # hackmd-dark-theme
 Dark theme for HackMD
 
+## Get starting
+Document: [套用自訂 HackMD 暗主題 | Titangene Blog](https://titangene.github.io/article/hackmd-dark-theme.html)
+
 ## Installing
 Install browser extension: Stylus - get the addon for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Firefox](https://addons.mozilla.org/zh-TW/firefox/addon/styl-us/) and [Opera](https://addons.opera.com/zh-tw/extensions/details/stylus/).
 
