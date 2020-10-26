@@ -1666,4 +1666,10 @@
   .diff-table .pl-v {
     color: #eee !important;
   }
+  
+  /* comment app */
+  .ui-comment-app * {
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
 }
