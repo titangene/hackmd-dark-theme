@@ -1124,10 +1124,6 @@
   .ui-comment-container textarea:-ms-input-placeholder {
     color: #eee;
   }
-    
-  .ui-comment-button-container {
-    border-radius: 6px;
-  }
 
   @keyframes highlight {
     0% {
