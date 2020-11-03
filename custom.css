@@ -1057,7 +1057,11 @@
     border-color: #6d6d6d;
   }
 
-  /*--------------- comment ---------------*/
+  /*--------------- comment ---------------*/  
+  .open-comments {
+    border-radius: 4px;
+  }
+  
   .ui-comment-container .ui-comment-header {
     background-color: #2a2a2a;
     color: #eee;
@@ -1667,9 +1671,4 @@
     color: #eee !important;
   }
   
-  /* comment app */
-  .ui-comment-app * {
-    box-sizing: border-box;
-    border-radius: 4px;
-  }
 }
