@@ -1057,7 +1057,15 @@
     border-color: #6d6d6d;
   }
 
-  /*--------------- comment ---------------*/
+  /*--------------- comment ---------------*/  
+  .ui-comment-app .open-comments {
+    border-radius: 4px;
+  }
+  
+  .ui-comment-app .ui-comment-button-container.comment {
+    background-color: transparent !important;
+  }
+  
   .ui-comment-container .ui-comment-header {
     background-color: #2a2a2a;
     color: #eee;
