@@ -1058,7 +1058,7 @@
   }
 
   /*--------------- comment ---------------*/  
-  .open-comments {
+  .ui-comment-app .open-comments {
     border-radius: 4px;
   }
   
