@@ -419,6 +419,37 @@
   opacity: 1;
 }
 
+
+.overview-component .list-section ul.row-layout {
+  background: #1c1c1c;
+  color: #888888;
+}
+
+.overview-component .list-section ul.row-layout a.title {
+  color: #fff;
+}
+
+.overview-component .list-section ul.row-layout span{
+  color: #ccc;
+}
+
+.menu-component.white .base-menu {
+  background-color: #686868;
+  border: 1px solid #686868;
+}
+
+.menu-component.white .divider {
+  background-color: #686868;
+}
+
+.menu-component .menu-item {
+  color: #fff;
+}
+
+.menu-component.white .base-menu .menu-item.danger {
+  color: #F44336;
+}
+
   /*--------------- settings ---------------*/
   .section .form-horizontal .form-group .btn-default {
     font-size: 16px;
