@@ -535,7 +535,7 @@
   }
 
   .markdown-body pre {
-    background-color: #1e1e1e;
+    background-color: #1e1e1e !important;
     border: 1px solid #555 !important;
     color: #dfdfdf;
   }
