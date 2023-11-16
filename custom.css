@@ -416,7 +416,56 @@
 }
 
 .overview-component .ui-overview-pin {
-  opacity: 1;
+  opacity: 0.8;
+}
+
+.overview-component .list-section ul.row-layout {
+  background: #1c1c1c;
+  color: #cbcbcb;
+}
+
+.overview-component .list-section ul.row-layout .overlay.highlighted {
+  background: #3b3b3b;
+}
+
+.overview-component .list-section ul.row-layout .seperator.bold {
+  background: #888888;
+}
+
+.overview-component .list-section ul.row-layout a.title {
+  color: #fff;
+}
+
+.overview-component .list-section ul.row-layout .time {
+  color: #bbb;
+}
+
+.overview-component .list-section ul.row-layout span{
+  color: #ccc;
+}
+
+.menu-component.white .base-menu {
+  background-color: #444;
+  border: 1px solid #444;
+}
+
+.menu-component.white .divider {
+  background-color: #686868;
+}
+
+.menu-component.white .base-menu .menu-item {
+  color: #fff;
+}
+
+.menu-component.white .base-menu .menu-item.danger {
+  color: #ff150f;
+}
+
+.overview-component .ui-ellipsis:hover, .overview-component .ui-ellipsis:focus {
+  background-color: #4f4f4f;
+}
+.overview-component .bookmark-button:hover, .overview-component .bookmark-button:focus {
+  background-color: #4f4f4f;
 }
 
   /*--------------- settings ---------------*/
